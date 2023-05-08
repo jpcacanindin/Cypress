@@ -1,0 +1,16 @@
+Installation:
+node init -y
+npm install cypress
+
+Open/Run Specs:
+npx cypress open
+npx cypress run
+npx cypress run --headed
+npx cypress run --spec cypress\e2e\spec.cy.js --headed
+npx cypress run --spec cypress\e2e\spec.cy.js --browser chrome  
+
+Heirarchy:
+Test Suite -> Test Case -> Test Steps
+Spec File(.cy.js) -> Describe Blocks (Test Suite) -> It Blocks (Test)
+
+Locators:
