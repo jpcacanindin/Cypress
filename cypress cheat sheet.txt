@@ -14,3 +14,29 @@ Test Suite -> Test Case -> Test Steps
 Spec File(.cy.js) -> Describe Blocks (Test Suite) -> It Blocks (Test)
 
 Locators:
+tag id
+tag class
+tag attribute
+tag class attribute
+
+#id
+.class
+[attribute='value']
+.class[attribute='value']
+
+xpath
+
+Assertions:
+Implicit
+	should 
+	and
+		eq
+		contain
+		include
+		exist
+		have.length
+		have.value
+
+Explicit
+	expect	- BDD
+	assert	- TDD
